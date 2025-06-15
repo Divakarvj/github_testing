@@ -5,4 +5,7 @@ with open("docs/Solverminds_Survey_Note.md", "r") as file:
     lines = md_file.splitlines()
 
     for line in lines:
-        print("Lines :",line)
+        # print("Lines :",line)
+        
+        if line.startswith("#")  or line.startswith("##") or line.startswith("###"):
+            print("Heading found:", line)
