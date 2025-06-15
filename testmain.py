@@ -5,4 +5,4 @@ with open("docs/Solverminds_Survey_Note.md", "r") as file:
     lines = md_file.splitlines()
 
     for line in lines:
-        print(line)
+        print("Lines :",line)
